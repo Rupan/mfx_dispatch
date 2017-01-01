@@ -1,0 +1,27 @@
+Releases are tagged by API major and minor version.
+
+Buils instructions:
+
+  $ mkdir build
+  $ cd build
+  $ cmake –D__ARCH:STRING=intel64 ../
+  $ make
+
+Replace intel64 with ia32 as appropriate.
+
+Similar repositories can be found here:
+
+https://github.com/Rodeo314/libmfx
+https://github.com/lu-zero/mfx_dispatch
+
+The hardware-accelerated libraries can be installed using the Intel Media Server Studio:
+
+https://software.intel.com/en-us/intel-media-server-studio
+
+The API 1.19 release was extracted from the 2017 release, in intel-linux-media_generic_16.5-55964_64bit.tar.gz.
+
+Troubleshooting and further info:
+
+http://streambuilder.pro/docs/requirements/enabling-iqsv/
+https://software.intel.com/en-us/articles/harnessing-handbrake
+https://trac.ffmpeg.org/wiki/HWAccelIntro
